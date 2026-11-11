@@ -126,7 +126,7 @@ ransomware-protection
 
 ## 2. 发布前必须做的三件小事
 
-1. **LICENSE 补全文**（当前只是摘要，见文件内说明）。放全文后 GitHub 才会在仓库页显示许可证徽标。
+1. **LICENSE 已放全文**（MIT），GitHub 会自动识别并在仓库页显示 MIT 徽标，无需再处理。
 2. **确认 `docs/img` 不是空目录**，否则 git 不会提交它（已放了 `.gitkeep`）。
 3. **在 README 顶部确认语言切换链接可用**：`README.zh-CN.md` 与 `README.md` 互相指向。
 

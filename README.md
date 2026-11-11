@@ -207,15 +207,11 @@ The gap this project aims at: **a write blocker that can be opened, once, by a h
 
 ## 10. Licensing
 
-Three licences, because three kinds of work:
+**MIT** — for everything: host software, firmware, hardware design files, and documentation.
 
-| Part | Licence |
-|---|---|---|
-| Software (host, firmware) | Apache-2.0 |
-| Hardware design files | CERN-OHL-S-2.0 |
-| Documentation | CC BY 4.0 |
+It is the shortest permissive licence that grants commercial use with no condition beyond keeping the copyright notice. You may build a product from these designs, keep the design files closed, and sell it. That is deliberate: the point is for this idea to spread, not to be owned.
 
-See [LICENSE](LICENSE) for the summary and the notice text to copy into design files.
+See [LICENSE](LICENSE).
 
 ---
 

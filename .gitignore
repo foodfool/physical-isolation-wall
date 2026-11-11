@@ -1,0 +1,35 @@
+# Build artefacts
+target/
+build/
+dist/
+*.o
+*.elf
+*.bin
+*.uf2
+*.hex
+*.map
+
+# EDA tooling
+*.kicad_prl
+*.kicad_pcb-bak
+*.bak
+*.lck
+*-backups/
+fp-info-cache
+*.gbrjob
+*.zip
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Local secrets and provisioning material
+*.pem
+*.key
+recovery-*.txt
+provisioning/
+.env

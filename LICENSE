@@ -1,0 +1,64 @@
+# Licensing
+
+This repository contains three kinds of work, and they carry three different licences. **Replace the summary below with the full licence texts from the official sources before publishing** — GitHub only shows a licence badge when it can detect the full text of `LICENSE`.
+
+| Part | Paths | Licence | Full text from |
+|---|---|---|---|
+| Software: host tools, firmware | `pwgd/`, `pwguard/`, `pwlib/`, `firmware/` | **Apache License 2.0** | https://www.apache.org/licenses/LICENSE-2.0.txt |
+| Hardware: schematics, PCB, mechanical | `hardware/` | **CERN-OHL-S-2.0** (strongly reciprocal) | https://cern-ohl.web.cern.ch/ |
+| Documentation | `README*.md`, `docs/`, `CONTRIBUTING.md`, `SECURITY.md` | **CC BY 4.0** | https://creativecommons.org/licenses/by/4.0/legalcode |
+
+Why these three:
+
+- **Apache-2.0** for software: patent grant plus permissive reuse, so a commercial vendor can build a product without asking, while still being bound by the patent clause.
+- **CERN-OHL-S** for hardware: strongly reciprocal, meaning anyone who ships a product based on these designs must publish their modified design files. For a security device, that reciprocity is the point — a closed derivative is a device nobody can audit.
+- **CC BY 4.0** for documentation: maximum reach, minimal friction, attribution required.
+
+---
+
+## Notice to copy into design files
+
+**Hardware (schematics, PCB, mechanical):**
+
+```
+Copyright (c) <year> <author>
+This source describes Open Hardware and is licensed under the CERN-OHL-S v2.
+You may redistribute and modify this source and make products using it under
+the terms of the CERN-OHL-S v2 (https://cern-ohl.web.cern.ch/).
+This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING
+OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE.
+Please see the CERN-OHL-S v2 for applicable conditions.
+Source location: <repository URL>
+As per CERN-OHL-S v2 section 4, should You produce hardware based on this
+source, You must where practicable maintain the Source Location visible on
+the external case of the Gate or other products you make using this source.
+```
+
+**Software:**
+
+```
+Copyright (c) <year> <author>
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+    http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
+
+---
+
+## 中文说明
+
+本仓库包含三类作品，分别适用三种许可，**发布前请用官方站点下载的全文替换上面的摘要**——GitHub 只有在能识别 `LICENSE` 全文时才会显示许可证徽标。
+
+- 软件（主机工具、固件）：**Apache-2.0**。带专利授权，商业公司可以直接基于它做产品而不必另行申请，同时受专利条款约束。
+- 硬件（原理图、PCB、机械件）：**CERN-OHL-S-2.0**（强互惠）。任何基于本设计出货的人，都必须公开其修改后的设计文件。**对一个安全设备来说，这种互惠正是重点**——闭源的衍生品，就是一台没人能审计的设备。
+- 文档：**CC BY 4.0**。传播最广、摩擦最小，要求署名。
+
+设计文件里要抄进去的声明文本见上方代码块（英文模板，CERN 官方要求保留原文，不要翻译）。
+
+> 注意：如果你希望别人能自由做闭源商业产品，把硬件许可换成 CERN-OHL-P（宽松版）；如果只想要求"改动也要开源"但允许与专有部分组合，用 CERN-OHL-W（弱互惠）。这个选择要写进 README，别让人猜。
